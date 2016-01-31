@@ -1,0 +1,35 @@
+{
+  "author": "Scott Jones",
+  "name": "guild-raid-roster",
+  "version": "0.12.1",
+  "main": "src/index.js",
+  "description": "This small frontend application will grab a guild roster and proceed to validate how raid ready they are",
+  "private": false,
+  "devDependencies": {
+	"chai": "^3.4.1",
+	"istanbul": "^0.4.1",
+	"eslint": "^1.10.3",
+	"mochify": "^2.14.3",
+	"mochify-istanbul": "^2.3.0",
+	"phantomjs": "^1.9.19",
+	"watchify": "^3.6.1"
+  },
+  "dependencies": {
+	"browserify": "^12.0.1",
+	"partialify": "^3.1.5",
+	"uglifycss": "0.0.20",
+	"uglify-js": "^2.6.1"
+  },
+  "browserify": {
+	"transform": [
+	  "partialify"
+	]
+  },
+  "scripts": {
+	"cover": "mochify --plugin [ mochify-istanbul --exclude '**/+(test|templates)/**/*' --report json --report lcov --dir ./reports/cov ] -R spec --phantomjs ./node_modules/.bin/phantomjs",
+	"build-js": "mkdir -p src/dist/ && browserify src/index.js | uglifyjs -cm > src/dist/widget.js",
+	"build": "npm run build-js",
+	"build-clean": "rm -rf src/dist",
+	"watch": "watchify src/index.js -o 'npm run build-js' -v"
+  }
+}

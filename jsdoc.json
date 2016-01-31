@@ -1,0 +1,10 @@
+{
+	"opts": {
+		"encoding": "utf8",
+		"destination": "./doc",
+		"lenient": true,
+		"recurse": true,
+		"readme": "README.md",
+		"private": true
+	}
+}

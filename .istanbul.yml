@@ -1,0 +1,6 @@
+instrumentation:
+	excludes: []
+	save-baseline: true
+	baseline-file: ./reports/cov/coverage-baseline.json
+reporting:
+	dir: ./reports/cov
