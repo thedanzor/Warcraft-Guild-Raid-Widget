@@ -117,7 +117,7 @@ You can then start using the application by opening the **index.html** inside yo
 
 # Defects and Feature requests
 
-There is bound to be bugs, issues or things disliked about this application. For any such things please email me at **sjones243@gmail.com**
+There is bound to be bugs, issues or things disliked about this application. You can report them here (https://github.com/thedanzor/Warcraft-Guild-Raid-Widget/issues).
 
 # Tweaking and Modifying the application (For Developers)
 Navigate to this project where you pulled it, you will then need to run an NPM Install to install all the required Dependencies.
