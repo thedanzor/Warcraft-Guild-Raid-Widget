@@ -1,9 +1,9 @@
 {
   "author": "Scott Jones",
   "name": "guild-raid-roster",
-  "version": "0.12.1",
+  "version": "1.0.0",
   "main": "src/index.js",
-  "description": "This small frontend application will grab a guild roster and proceed to validate how raid ready they are",
+  "description": "This is a small application to give insight on how the raid team is gearing and their attunement progress.",
   "private": false,
   "devDependencies": {
 	"chai": "^3.4.1",

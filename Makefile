@@ -61,13 +61,6 @@ test-coverage: init
 	node_modules/.bin/istanbul check-coverage --statements 95 \
 		reports/cov/coverage-final.json
 
-test-acceptance: init
-	# Run automated acceptance tests
-
-doc: init
-	# generate documentation
-	node_modules/.bin/jsdoc -c jsdoc.json --verbose ${JS_SRC}
-
 clean:
 	rm -rf node_modules/
 	rm -rf gems/

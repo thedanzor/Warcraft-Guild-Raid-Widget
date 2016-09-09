@@ -15,11 +15,11 @@ var checkGear = function (itemLevel) {
 	gearStatus.innerHTML = itemLevel;
 
 	// Check how to best style / indicate this element
-	if (itemLevel > 700 && itemLevel < 710) {
+	if (itemLevel > 810 && itemLevel < 720) {
 		gearStatus.className = 'normal';
-	} else if (itemLevel > 709 && itemLevel < 720) {
+	} else if (itemLevel > 819 && itemLevel < 730) {
 		gearStatus.className = 'heroic';
-	} else if (itemLevel > 719) {
+	} else if (itemLevel > 740) {
 		gearStatus.className = 'mythic';
 	} else {
 		gearStatus.className = 'lfr';

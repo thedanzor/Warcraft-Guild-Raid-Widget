@@ -16,10 +16,6 @@ This application is currently in **Version 0.12.1** and as a result is simply a 
 
 **Future Update Plans:**
 * Clean up code and modules
-* Introduce Guild Youtube Channel Support
-* Introduce Guild Screenshot Support
-* Better Overlay - More gear / character information
-* Better member filter options
 * Better mobile optimizations
 * Introduce SASS
 * Better Unit Tests

@@ -1,26 +1,11 @@
 {
 	"apiSettings" : {
-		"APIKey" : "",
+		"APIKey" : "ny9rubgxfq24vf8yyfysvcn8x3ku3g3g",
 		"region": "https://eu.api.battle.net"
 	},
 	"guildSettings": {
-		"guild": "emerald-dream/sunfall",
-		"raidIlevel": 700,
-		"levelFilter": 100,
-		"rankFilter": 0,
-		"rankFilter2": 1,
-		"rankFilter3": 6,
-		"rankFilter4": 6,
-		"rankFilter5": 6,
-		"rankFilter6": 6
-	},
-	"guildInfo": {
-		"poster": "hfc.jpg",
-		"currentRaid": "Mythic Hellfire Citadel",
-		"progress": "5/13",
-		"recruiting": true,
-		"website": "http://www.sunfall.eu",
-		"desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper massa ut mi cursus cursus. Integer molestie velit sed libero facilisis, id blandit quam congue. Nunc scelerisque gravida dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis pharetra neque ut mauris eleifend mollis pulvinar in enim. Quisque ultrices fermentum lacus, id lacinia risus aliquet sit amet. Aliquam non sapien molestie, gravida dolor congue, pharetra tortor. Suspendisse commodo dui in rutrum tempor. Nullam accumsan condimentum dolor et semper.",
-		"desc2": "Nam pellentesque at lectus rutrum facilisis. Sed sit amet dignissim ante, quis suscipit ipsum. In luctus vitae est id sagittis. Nam suscipit nulla eget ante ultrices ultrices. Vestibulum ac purus at nulla gravida ultrices sit amet eget tortor. Vivamus ornare felis vitae lacus blandit posuere. Fusce neque lacus, aliquet at viverra a, fermentum vel odio. Donec eget euismod mi, vitae scelerisque mauris."
+		"guild": "chamber of aspects/catch my towel",
+		"raidIlevel": 840,
+		"levelFilter": 110
 	}
 }
