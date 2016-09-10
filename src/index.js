@@ -4,8 +4,7 @@
 var Request = require('./utils/request');
 var FilterMembers = require('./modules/filterMembers');
 var collectCharData = require('./modules/collectCharData');
-var displayChar = require('./views/displayChar');
-var Stylesheet = require('./utils/style');
+var buildCharacterViews = require('./views/displayChar');
 
 // APPLICATION START
 var launchApp = function (config) {
@@ -30,7 +29,7 @@ var launchApp = function (config) {
 				var rosterData = collectCharData(roster, config);
 
 				if (rosterData) {
-					displayChar(rosterData, container);
+					buildCharacterViews(rosterData, container);
 				}
 			}
 		}
@@ -39,5 +38,4 @@ var launchApp = function (config) {
 
 // Lets start the widget
 // Method to check if the document is ready
-Stylesheet('./css/widget.css');
 launchApp(Request('./config.json'));
